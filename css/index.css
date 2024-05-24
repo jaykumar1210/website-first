@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header ul li a.active {
+    color: #007bff;
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* Styles for slideshow */
+.slideshow {
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styles for background pattern */
+.pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pattern.png');
+    opacity: 0.5; /* Adjust opacity as needed */
+}
